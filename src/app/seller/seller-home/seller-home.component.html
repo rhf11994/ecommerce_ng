@@ -1,0 +1,17 @@
+
+<div class="row">
+  <div class="d-flex product-item">
+    <div>Category</div>
+    <div>Name</div>
+    <div>Image</div>
+    <div>Color</div>
+    <div>Description</div>
+    <div>Actions</div>
+  </div>
+  <!-- class="col-xs-6 col-md-8" -->
+  <app-product-item
+    *ngFor="let item of AllProducts;let i=index"
+    [productItem]="item"
+    [itemId]="i"
+  ></app-product-item>
+</div>

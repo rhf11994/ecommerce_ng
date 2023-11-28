@@ -1,0 +1,151 @@
+{
+  "seller": [
+    {
+      "userName": "test",
+      "email": "test@test.com",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "userName": "test",
+      "email": "test@gmail.com",
+      "password": "123456",
+      "id": 2
+    },
+    {
+      "userName": "test",
+      "email": "test@gmail.com",
+      "password": "1234565",
+      "id": 3
+    },
+    {
+      "userName": "test",
+      "email": "test@gmail.com",
+      "password": "123456",
+      "id": 4
+    },
+    {
+      "userName": "test",
+      "email": "test@gmail.com",
+      "password": "123456",
+      "id": 5
+    },
+    {
+      "userName": "test",
+      "email": "test@gmail.com",
+      "password": "123456",
+      "id": 6
+    }
+  ],
+  "products": [
+    {
+      "name": "suitcase",
+      "category": "aa",
+      "color": "#6f42c1",
+      "URL": "../../../assets/img/slider2.jpg",
+      "price": "20",
+      "description": "aa",
+      "id": 2
+    },
+    {
+      "name": "shoes ",
+      "category": "aa",
+      "color": "#6f42c1",
+      "URL": "../../../assets/img/slider3.jpg",
+      "price": "20",
+      "description": "aa",
+      "id": 3
+    },
+    {
+      "name": "shoes ",
+      "category": "aa",
+      "color": "#6f42c1",
+      "URL": "../../../assets/img/slider3.jpg",
+      "price": "20",
+      "description": "aa",
+      "id": 4
+    },
+    {
+      "name": "shoes ",
+      "category": "aa",
+      "color": "#6f42c1",
+      "URL": "../../../assets/img/slider3.jpg",
+      "price": "20",
+      "description": "aa",
+      "id": 5
+    },
+    {
+      "name": "shoes ",
+      "category": "aa",
+      "color": "#6f42c1",
+      "URL": "../../../assets/img/slider3.jpg",
+      "price": "20",
+      "description": "aa",
+      "id": 6
+    },
+    {
+      "name": "shoes ",
+      "category": "aa",
+      "color": "#6f42c1",
+      "URL": "../../../assets/img/slider3.jpg",
+      "price": "20",
+      "description": "aa",
+      "id": 7
+    },
+    {
+      "name": "shoes ",
+      "category": "aa",
+      "color": "#6f42c1",
+      "URL": "../../../assets/img/slider3.jpg",
+      "price": "20",
+      "description": "aa",
+      "id": 8
+    },
+    {
+      "name": "shoes ",
+      "category": "aa",
+      "color": "#6f42c1",
+      "URL": "../../../assets/img/slider3.jpg",
+      "price": "20",
+      "description": "aa",
+      "id": 9
+    }
+  ],
+  "users": [
+    {
+      "userName": "test",
+      "email": "test@gmail.com",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "userName": "test",
+      "email": "test@test.com",
+      "password": "123456",
+      "id": 2
+    },
+    {
+      "userName": "test",
+      "email": "test@test.com",
+      "password": "123456",
+      "id": 3
+    },
+    {
+      "userName": "test",
+      "email": "test@test.com",
+      "password": "123456",
+      "id": 4
+    }
+  ],
+  "carts": [],
+  "orders": [
+    {
+      "email": "test@test.com",
+      "address": "aa",
+      "contact": "11",
+      "userId": 2,
+      "totalPrice": 120,
+      "id": 1
+    }
+  ]
+}

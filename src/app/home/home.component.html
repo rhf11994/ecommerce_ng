@@ -1,0 +1,42 @@
+<!-- <p>home works!</p> -->
+<mdb-carousel [controls]="true" [indicators]="true" [animation]="'fade'">
+  <mdb-carousel-item *ngFor="let product of sliderProduct">
+    <img [src]="product.URL" class="d-block w-100 carosal-img" />
+    <div class="carousel-caption d-none d-md-block">
+      <h1>{{ product.name }}</h1>
+      <p>{{ product.description }}</p>
+    </div>
+  </mdb-carousel-item>
+</mdb-carousel>
+
+<div class="container mt-3 mb-3">
+  <div class="row">
+    <div class="col-md-4 col-sm-12 mt-4" *ngFor="let proItem of trendyProducts;let i=index">
+      <div class="card">
+        <img
+          class="card-img-top image-fit"
+          [src]="proItem.URL"
+          alt="Card image cap"
+        />
+        <div class="card-body text-center trendy-product">
+          <h5 class="card-title">{{ proItem.name }}</h5>
+          <h6>{{ proItem.price }}</h6>
+          <div class="alignColorBox">
+            <div
+              class="color-box"
+              [ngStyle]="{ backgroundColor: getColor(proItem) }"
+            >
+            </div>
+          </div>
+
+          <div class="d-flex justify-content-between">
+            
+            <!-- (click)="onSelectProduct(i)"   -->
+            <a [routerLink]="['/',i,'details']">view Details</a>
+            <a href="">add to card</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

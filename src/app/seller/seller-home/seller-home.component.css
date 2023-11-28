@@ -1,0 +1,14 @@
+.product-item {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+ 
+    /* border: 1px solid #ddd; */
+    margin: 10px 2px;
+    padding: 0 10px;
+  }
+
+  .product-item>div {
+    width:100px;
+    margin-top: 10px;
+   }

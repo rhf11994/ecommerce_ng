@@ -1,0 +1,15 @@
+
+
+<div class="container searchPart">
+    <div class="row d-flex mt-3" *ngFor="let item of searchResult">
+        <div class="col-3 imageFit">
+          <img [src]="item.URL" alt="">
+        </div>
+        <div class="col-6">
+                <h5>{{item.name}}</h5>
+                <p><b>Price: {{item.price}}</b></p>
+                <p><span>Category: {{item.category}}</span></p>
+                <p>{{item.description}}</p>
+        </div>
+    </div>
+</div>

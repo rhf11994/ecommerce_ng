@@ -1,0 +1,37 @@
+ .product-item {
+   display: flex !important;
+   justify-content: space-between;
+   align-items: center;
+
+   border: 1px solid #ddd;
+   margin: 2px;
+   padding: 0 10px;
+
+   text-align: center;
+ }
+
+ .product-item>div {
+  width:100px;
+  margin-top: 10px;
+ }
+.product-item i,svg{
+font-size: 14px;
+width: 10px;
+ }
+ /* .product-item img {
+  width: 100%;
+} */
+
+ /* .product-det {
+  justify-content: space-between;
+  align-items: center;
+} */
+
+ .product-item .color-box {
+   width: 10px;
+   height: 10px;
+ }
+
+ .product-item img {
+   width: 100px;
+ }

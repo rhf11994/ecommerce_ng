@@ -1,0 +1,116 @@
+
+
+<form [formGroup]="productForm" (ngSubmit)="onSubmit()">
+  <div class="row">
+    <div class="col-12">
+      <button
+        class="btn btn-success m-1"
+        type="submit"
+        [disabled]="!productForm.valid"
+      > 
+        {{editMode?'update':'add'}}
+      </button>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          class="form-control"
+          formControlName="name"
+        />
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="row">
+    <div class="col-12">
+      <div class="form-group">
+        <label for="URL">Image Path</label>
+        <input
+          type="text"
+          id="URL"
+          name="URL"
+          class="form-control"
+          formControlName="URL"
+          #URL
+        />
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="row">
+    <div class="col-12">
+      <div class="form-group">
+        <label for="price">Price</label>
+        <input
+          type="text"
+          id="price"
+          name="price"
+          class="form-control"
+          formControlName="price"
+          #price
+        />
+      </div>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-12">
+      <div class="form-group">
+        <label for="color">Color</label>
+        <input
+          type="text"
+          id="color"
+          name="color"
+          class="form-control"
+          formControlName="color"
+          #color
+        />
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <div class="form-group">
+        <label for="category">category</label>
+        <input
+          type="text"
+          id="category"
+          name="category"
+          class="form-control"
+          formControlName="category"
+          #color
+        />
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12">
+      <div class="form-group">
+        <label for="description">Description</label>
+        <textarea
+          type="text"
+          id="description"
+          name="description"
+          class="form-control"
+          rows="6"
+          formControlName="description"
+        ></textarea>
+      </div>
+    </div>
+  </div>
+
+  <hr />
+  <!-- <button type="button" class="btn btn-primary" (click)="onAddIng()">
+    add
+  </button>  -->
+</form>

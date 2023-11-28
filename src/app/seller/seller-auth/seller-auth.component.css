@@ -1,0 +1,14 @@
+.formHeader h5{
+color: #3646be;
+margin-bottom: 20px;
+}
+
+a{
+    cursor: pointer;
+    color: #6060ff !important;
+}
+.errorMsg{
+font-size: 14px;
+color: #e11c1c;
+margin-top: 10px;
+}
